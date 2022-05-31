@@ -1,0 +1,510 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    color: white;
+
+    text-decoration: none;
+}
+
+.a:hover {
+    color: white;
+}
+
+.a2 {
+    text-decoration: none;
+}
+
+.fa-comment {
+    color: orange;
+}
+
+.fa-arrows-spin {
+    color: skyblue;
+}
+
+.fa-crop {
+    color: red;
+}
+
+.fa-coins {
+    color: purple;
+}
+
+header {
+    background-image: url(./img/one1.png);
+    background-size: 1365px;
+    background-attachment: fixed;
+
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+
+    background-color: rgb(0, 0, 0, 0.8);
+
+    box-shadow: 0 4 5 white;
+}
+
+.nav {
+    padding: 1.6rem 0;
+
+    justify-content: space-between;
+}
+
+.nav .one {
+    font-size: 1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    transform: translateY(2px);
+}
+
+.nav .two {
+    width: 55%;
+
+    justify-content: space-between;
+
+    transform: translateY(10px);
+
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+    letter-spacing: 1px;
+}
+
+.nav .two .about a {
+    transition: all 0.2s ease;
+
+    color: white;
+
+    text-decoration: none;
+}
+
+.nav .two .about a:hover {
+    filter: brightness(0.5);
+}
+
+.two .down {
+    background-color: rgb(85, 85, 85);
+
+    padding: 0.7rem 1.5rem;
+    padding-top: 0.8rem;
+
+    transform: translateY(-13px);
+    transition: all 0.1s linear;
+
+    box-shadow: 0px 1px 4px white;
+}
+
+.two .down:hover {
+    box-shadow: 0px 2px 5px white;
+
+    transform: translateY(-15px);
+}
+
+.two .down a {
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .first .one {
+    padding-top: 13.5rem;
+
+    font-size: 3.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+}
+
+header .first .two {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+    padding: 1rem 0;
+
+    letter-spacing: 1px;
+}
+
+header .first .three {
+    margin-top: 1.7rem;
+}
+
+.span1 {
+    padding: 0.7rem 1.5rem;
+
+    color: rgba(0, 0, 0, 1);
+    background-color: white;
+
+    border: 1px solid white;
+
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    transition: all 0.2s linear;
+}
+
+.span1:hover {
+    background-color: rgb(255, 255, 255, 0);
+    color: white;
+}
+
+.span2 {
+    padding: 0.7rem 1.5rem;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0);
+
+    border: 1px solid white;
+
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    transition: all 0.2s linear;
+
+    margin-left: 2rem;
+}
+
+.span2:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+section .first .one {
+    background-color: blue;
+}
+
+section .first .two {
+    background-color: blueviolet;
+}
+
+section .first .three {
+    background-color: rgb(25, 155, 25);
+}
+
+section .first .four {
+    background-color: rgb(80, 163, 196);
+}
+
+section .first .one .bir {
+    font-size: 3.5rem;
+}
+
+section .first .one .ikki {
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 1.5rem;
+}
+
+section .second .one div {
+    font-size: 3.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+}
+
+section .second .one p {
+    color: rgb(65, 65, 65);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    margin-top: 1rem;
+
+    letter-spacing: 1px;
+}
+
+section .second .two {
+    justify-content: space-between;
+
+    margin-top: 2rem;
+}
+
+.second .two .design {
+    width: 32%;
+    margin-top: 1rem;
+}
+
+.second .two .design h3 {
+    padding: 1rem 0;
+    padding-top: 0.2rem;
+
+    font-weight: 700;
+}
+
+.second .two .design p {
+    color: rgb(65, 65, 65);
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+}
+
+.second .two .design i {
+    font-size: 3rem;
+}
+
+section .third .one div {
+    font-size: 3.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+}
+
+section .third .one p {
+    color: rgb(65, 65, 65);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    margin-top: 1rem;
+
+    letter-spacing: 1px;
+}
+
+.third .two .lorem i {
+    font-size: 2rem;
+
+    transform: translateY(5px);
+}
+
+.one3 i {
+    color: skyblue;
+}
+
+.third .two .lorem span {
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+
+    margin-left: 0.4rem;
+}
+
+.third .two .lorem .two {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+    margin-left: 2.4rem;
+    margin-top: 0.2rem;
+
+    letter-spacing: 1px;
+
+    color: rgb(87, 87, 87);
+}
+
+.one5 i {
+    color: purple;
+}
+
+.one4 i {
+    color: red;
+}
+
+.two10 {
+    padding-top: 4rem;
+}
+
+section .fourth .one div {
+    font-size: 3.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+}
+
+section .fourth .one p {
+    color: rgb(155, 155, 155);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    margin-top: 1rem;
+
+    letter-spacing: 1px;
+}
+
+.fourth {
+    margin-top: 2.5rem;
+}
+
+.fourth .two {
+    padding: 3.5rem 0;
+}
+
+.fourth .two .bir1 {
+    background-image: url(./img/four2.jpg);
+    background-size: 100%;
+
+    width: 30%;
+
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.fourth .two .bir2 {
+    background-image: url(./img/four1.jpg);
+}
+
+.fourth .two .bir3 {
+    background-image: url(./img/four3.jpg);
+}
+
+.s .two {
+    font-size: 5rem;
+    font-weight: 400;
+
+    margin-left: 1rem;
+}
+
+.s .one {
+    font-size: 3.4rem;
+
+    position: absolute;
+
+    transform: translate(-20px, -2px);
+}
+
+.s .three {
+    font-size: 3rem;
+
+    position: absolute;
+
+    transform: translateY(35px);
+}
+
+.per .one {
+    padding: 0.4rem 0;
+}
+
+.buy .now {
+    padding: 0.5rem 1.5rem;
+
+    background-color: rgb(255, 255, 255, 0);
+
+    border: 1px solid white;
+
+    font-size: 1rem;
+
+    text-transform: uppercase;
+
+    width: 42%;
+
+    box-shadow: 0px 1px 4px rgb(188, 188, 188);
+
+    transition: all 0.3s ease;
+}
+
+.buy .now:hover {
+    box-shadow: 0px 2px 5px rgb(188, 188, 188);
+
+    transform: translateY(-1px);
+}
+
+section .fifth .one div {
+    font-size: 3.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+}
+
+section .fifth .one p {
+    color: rgb(85, 85, 85);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    margin-top: 1rem;
+
+    letter-spacing: 1px;
+}
+
+.two .bir11 {
+    justify-content: space-between;
+
+    margin: 2rem 0;
+}
+
+.bir11 .word .four {
+    font-size: 1.4rem;
+
+    margin-top: 0.5rem;
+}
+
+footer .one {
+    font-size: 1.4rem;
+
+    letter-spacing: 0.5rem;
+}
+
+footer .two {
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.a4 {
+    transition: all 0.3s linear;
+}
+
+.a4:hover {
+    color: blue;
+}
+
+.a5 {
+    transition: all 0.3s linear;
+}
+
+.a5:hover {
+    color: skyblue;
+}
+
+.a6 {
+    transition: all 0.3s linear;
+}
+
+.a6:hover {
+    color: red;
+}
+
+.a7 {
+    transition: all 0.3s linear;
+}
+
+.a7:hover {
+    color: rgb(194, 0, 194);
+}
